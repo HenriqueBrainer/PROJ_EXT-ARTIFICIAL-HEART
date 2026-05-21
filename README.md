@@ -10,16 +10,13 @@ Esta é a versão em PHP da interface do Coração Artificial, adaptada para ler
 ## Requisitos
 
 1. **Servidor Web**: Apache ou Nginx com PHP instalado.
-2. **Permissões**: O usuário do servidor web (ex: `www-data`) deve ter permissão de leitura e escrita na porta serial (ex: `/dev/ttyUSB0`).
-   - Comando comum: `sudo usermod -a -G dialout www-data`
-3. **Extensão PHP**: Embora o código use funções básicas de arquivo, a extensão `dio` (Direct IO) é recomendada para comunicações seriais complexas.
 
 ## Configuração UART
 
 No topo dos arquivos `index.php` e `api.php`, você encontrará as variáveis de configuração:
 
 ```php
-$serial_port = '/dev/ttyUSB0'; // Altere para a sua porta (COM1 no Windows, /dev/ttyACM0, etc)
+$serial_port = '/dev/ttyUSB0'; 
 $baud_rate = 9600;
 ```
 
