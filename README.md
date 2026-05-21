@@ -9,7 +9,7 @@ Esta é a versão em PHP da interface do Coração Artificial, adaptada para ler
 
 ## Requisitos
 
-1. **Servidor Web**: Apache ou Nginx com PHP instalado.
+1. **Servidor Web**: Apache ou Nginx com PHP instalado. ( Baixar a imagem no docker )
 
 ## Configuração UART
 
